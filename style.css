@@ -1,1 +1,217 @@
-wqefwegf
+/* @import './reset.css' */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.363);
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-align: center;
+
+}
+
+/* .main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: url(./images/room-artwork-science-fiction-darkness-screenshot-4000x2000-px-510703.jpg); 
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.777;
+} */
+
+h1, h2{
+    margin: 1.5em;
+}
+
+.main-box{
+    background: url(./images/room-artwork-science-fiction-darkness-screenshot-4000x2000-px-510703.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 4.4em;
+}
+
+.links{
+    display: inline-block;
+    background: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #555;
+    margin: 2.5em;
+}
+
+.links:hover{
+    background: #e9e8e8;
+    color: #555;
+}
+
+#block-1{
+    width: 100%;
+    background: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 5em;
+    padding-top: 0.5em;
+    /* padding-left: 20em; */
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+
+
+#blok-1, #container-text{
+    columns: 2;
+    column-gap: 7em;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.flexParents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.backgroundCard{
+    width: 200px;
+    height: 200px;
+    background-color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    min-height: 750px;
+}
+
+.backgroundard1{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 700px;
+    display: inline-block;
+    color: black;
+}
+
+.card1{
+    background-image: url(./images/place4work.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.card2{
+    background-image: url(./images/launge.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.card3{
+    background-image: url(./images/zona.jpg);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+ul {
+    list-style: none;
+    padding: 1em;
+    /* margin: 0; */
+    /* padding: 1em; */
+    /* display: block; */
+    /* align-content: center; */
+    /* width: 100%; */
+    /* justify-content: center; */
+  }
+
+  /* li{
+    letter-spacing: 0.1em;
+  } */
+
+h3{
+    padding: 1em;
+    padding-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+.footerOne{
+    background: white;
+    color: black;
+    padding: 4.4em; 
+    font-size: 1.1em;
+}
+
+h4{
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.undeground{
+    font-size: 1.1em;
+    display: flex;
+    color: white;
+    /* justify-content: space-between; */
+}
+
+.podval{
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 7em;
+}
+
+.left{
+    background-color: #2690d4;
+}
+
+.right{
+    background-color: #555;
+}
+
+h5{
+    font-size: 1.5em;
+    padding-bottom: 2em;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2.5em;
+    background-color: black;
+}
+
+h6{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.group{
+    font-size: 1.5em;
+    text-decoration: none;
+}
