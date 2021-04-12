@@ -30,8 +30,6 @@ body{
 
 h1, h2{
     margin: 1.5em;
-    /* padding-top: 1em; */
-    
 }
 
 h2{
@@ -218,11 +216,8 @@ h3{
 
 h4{
     padding-bottom: 1em;
-    /* padding-top: ; */
     font-size: 1.5em;
 }
-
-
 
 .undeground{
     font-size: 1.1em;
